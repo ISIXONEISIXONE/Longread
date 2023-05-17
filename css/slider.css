@@ -1,0 +1,21 @@
+.controls {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Слайдер */
+
+.slider {
+  display: grid;
+  grid-template: 600px auto / 1fr;
+}
+
+.hidden {
+  display: none;
+}
