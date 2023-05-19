@@ -13,7 +13,7 @@ button {
 
 .slider {
   display: grid;
-  grid-template: 600px auto / 1fr;
+  grid-template: auto auto / 1fr;
 }
 
 .hidden {

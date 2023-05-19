@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+a {
+  color: #020100;
+}
+
 /* 1 block */
 
 header {
@@ -16,7 +20,7 @@ nav {
   color: black;
   display: grid;
   grid-template: 2fr/ 1fr;
-  row-gap: 40px;
+  row-gap: 60px;
 }
 
 .nav-list {
@@ -33,6 +37,10 @@ nav {
   font-family: 'Bitter', serif;
   font-weight: 500;
   justify-self: center;
+  background-color: #206aab;
+  padding: 20px;
+  color: whitesmoke;
+  border-radius: 40px;
 }
 
 /* 2 block */
@@ -244,12 +252,11 @@ li {
 
 .trends {
   padding-top: 60px;
-  height: 100vh;
 }
 
 .trends-content {
   display: grid;
-  grid-template: auto 1fr / 1fr;
+  grid-template: auto 1fr auto/ 1fr;
   row-gap: 60px;
   background-color: rgb(244, 244, 244);
   border-radius: 10px;
