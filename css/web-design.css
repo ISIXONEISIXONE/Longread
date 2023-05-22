@@ -37,7 +37,6 @@ nav {
   font-family: 'Bitter', serif;
   font-weight: 400;
   justify-self: center;
-
   padding: 20px;
   color: #c40b17;
 }
@@ -181,6 +180,7 @@ li {
 .stat {
   padding-top: 40px;
 }
+
 .stat-content {
   display: grid;
   grid-template: auto 1fr / 1fr;
@@ -300,9 +300,9 @@ li {
 .primeri-content-moon {
   display: grid;
   grid-template-areas:
-    'A A A A  A A A A  B B B B'
-    'C C C C  C C C C  B B B B'
-    'C C C C  C C C C  D D D D';
+    'A A A A  B B B B'
+    'C C C C  D D D D'
+    'C C C C  D D D D';
   row-gap: 20px;
   column-gap: 20px;
   padding-bottom: 20px;
