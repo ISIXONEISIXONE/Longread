@@ -15,21 +15,29 @@ header {
   padding-top: 40px;
 }
 
+.nextbtn {
+  display: grid;
+  background-color: #83d5b4;
+  border-radius: 40px;
+  padding: 20px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
 nav {
   display: grid;
   color: black;
   display: grid;
   grid-template: 2fr/ 1fr;
-  row-gap: 60px;
+  row-gap: 10px;
 }
 
 .nav-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
   font-size: 20px;
   font-family: 'Nunito', sans-serif;
   justify-items: center;
+  align-items: center;
 }
 
 .logo {

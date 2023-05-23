@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1230px) {
+  .moon-info {
+    font-size: 16px;
+  }
+
+  .moon-title {
+    font-size: 30px;
+  }
+
+  .primeri-title {
+    font-size: 30px;
+  }
+}
